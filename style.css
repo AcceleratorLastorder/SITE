@@ -1,0 +1,26 @@
+body{
+background-color: rgba(255, 200, 0, 0.5);
+}
+article{
+  display: flex;
+position: relative;
+border: 1px solid;
+border-color: red;
+}
+.close{
+position:absolute;
+right:0px;
+top: 0px;
+}
+.liresuite{
+  color: green;
+}
+ffimg{
+float: left;
+width: 50%;
+height: 50%;
+}
+article:hover .liresuite {
+  transition-delay: 0.5s;
+font-size: 1.5em;
+}
