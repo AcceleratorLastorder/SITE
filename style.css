@@ -2,7 +2,8 @@ body{
 background-color: rgba(255, 200, 0, 0.5);
 }
 article{
-  display: inline;
+  float: left;
+  display: inline-block;
 position: relative;
 border: 1px solid;
 border-color: red;
@@ -15,11 +16,10 @@ top: 0px;
 .liresuite{
   color: green;
 }
-ffimg{
-float: left;
-width: 50%;
+.ffimg{
+  float: left;
+  display: block
 }
 article:hover .liresuite {
-  transition-delay: 0.5s;
-font-size: 1.5em;
+  transform: scale(2);
 }
